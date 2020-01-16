@@ -13,30 +13,38 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age.
   Then alert your name using dot notation.
 */
-
-//Code here
-
+let me = {
+  name: 'Noah',
+  age: 21
+}
 ////////// PROBLEM 2 //////////
 
 /*
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
-
-//Code here
-
+let favoriteThings = {
+  band: 'Nero',
+  food: 'Pizza',
+  person: 'Kanye',
+  book: `I don't read`,
+  movie: 'Mad Max',
+  holiday: 'Halloween'
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings['car'] = 'Tesla'
+favoriteThings['brand'] = 'Lurking Class'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings['book'] = 'Harry Potter'
 //Code here
 
 ////////// PROBLEM 3 //////////
@@ -49,7 +57,10 @@
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
 
-//Code here
+let backPack = {}
+let item = 'firstPocket'
+backPack[item] = "firstPocket"
+backPack[item] = 'chapstick'
 
 /*
   After you do the above, alert your entire backPack object.
@@ -83,7 +94,8 @@ var user2 = {
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
-
+user2['name'] = 'Bryan G. Smith'
+user2['email'] = 'bryan.smith@devmounta.in'
 //Code Here
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
